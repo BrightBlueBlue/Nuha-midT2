@@ -50,14 +50,16 @@ public class MainActivity extends AppCompatActivity {
         button2 = (Button)findViewById(R.id.button2);
 
         //calendar to pick a date then view the humidity and temprature of the city
-        DatePicker simpleDatePicker = (DatePicker) findViewById(R.id.simpleDatePicker); // initiate a date picker
-        int day = simpleDatePicker.getDayOfMonth();
+
+
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.spinner, android.R.layout.simple_spinner_item);
         spinner.setAdapter(adapter);
         String place = spinner.getSelectedItem().toString();
 
+
+        DatePicker simpleDatePicker = (DatePicker) findViewById(R.id.simpleDatePicker);
         weather(weatherURL);
 
 

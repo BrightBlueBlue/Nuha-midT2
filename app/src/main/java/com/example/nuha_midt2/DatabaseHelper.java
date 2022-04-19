@@ -30,8 +30,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(
                 "CREATE TABLE " + TABLE_NAME + " ( " + COL1 + " INTEGER PRIMARY KEY," +
                         " " + COL2 + " TEXT NOT NULL, " +
-                        " " + COL3 + " INTEGER NOT NULL," +
-                        " " + COL4 + "INTEGER )"
+                        " " + COL3 + " TEXT NOT NULL," +
+                        " " + COL4 + "INTEGER NOT NULL )"
         );
 
 
