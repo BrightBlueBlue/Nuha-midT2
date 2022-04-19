@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nuha-midT2</string>
+    <string-array name="spinner">
+        <item>London</item>
+        <item>Riyadh</item>
+        <item>Dubai</item>
+    </string-array>
+</resources>
